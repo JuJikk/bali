@@ -13,10 +13,11 @@ const AboutProperty: FC<PropertyProps> = ({ propertyDetails }) => {
   const toggleRotation = () => setShowFullDescription((prev) => !prev);
   const openModalRef = useRef<any>(null);
   const handleOpenModal = (e: any) => {
-    if (!openModalRef.current) return;
-    openModalRef.current.showModal();
+    // if (!openModalRef.current) return;
+    // openModalRef.current.showModal();
+    setShowFullDescription(!showFullDescription);
   };
-  const descriptionMaxLength = 50;
+  const descriptionMaxLength = 150;
 
   function formatText(text: string) {
     return text
@@ -97,17 +98,17 @@ const AboutProperty: FC<PropertyProps> = ({ propertyDetails }) => {
           </p>
         </div>
 
-        <dialog id="my_modal_3" ref={openModalRef} className="modal">
-          <div className="modal-box">
-            <form method="dialog">
-              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                ✕
-              </button>
-            </form>
-            <h3 className="font-bold text-lg">About this Property</h3>
-            <p className="py-4">{propertyDetails.listing.description}</p>
-          </div>
-        </dialog>
+        {/*<dialog id="my_modal_3" ref={openModalRef} className="modal">*/}
+        {/*  <div className="modal-box">*/}
+        {/*    <form method="dialog">*/}
+        {/*      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">*/}
+        {/*        ✕*/}
+        {/*      </button>*/}
+        {/*    </form>*/}
+        {/*    <h3 className="font-bold text-lg">About this Property</h3>*/}
+        {/*    <p className="py-4">{propertyDetails.listing.description}</p>*/}
+        {/*  </div>*/}
+        {/*</dialog>*/}
 
         <div className="pt-4">
           {propertyDetails.listing.description.length >
@@ -117,18 +118,34 @@ const AboutProperty: FC<PropertyProps> = ({ propertyDetails }) => {
               className="max-w-[292px] flex items-center px-[41.33px] text-grays-1000 bg-transparent border border-grays-1000 rounded-2xl py-[13.5px]"
               onClick={handleOpenModal}
             >
-              <div
-                className={`flex justify-center items-center transition-transform duration-300 ease-in-out`}
-              >
-                <Icon
-                  iconName="arrow"
-                  fill="none"
-                  stroke="#000000"
-                  viewBox="0 0 13 13"
-                  width="13"
-                />
-              </div>
-              Show full description
+              {showFullDescription ? (
+                <div
+                  className={`flex justify-center items-center transition-transform duration-300 ease-in-out`}
+                >
+                  <Icon
+                    iconName="arrow"
+                    fill="none"
+                    stroke="#000000"
+                    viewBox="0 0 13 13"
+                    width="13"
+                  />
+                </div>
+              ) : (
+                <div
+                  className={`flex justify-center items-center transition-transform duration-300 ease-in-out`}
+                >
+                  <div style={{ transform: "rotate(180deg)" }}>
+                    <Icon
+                      iconName="arrow"
+                      fill="none"
+                      stroke="#000000"
+                      viewBox="0 0 13 13"
+                      width="13"
+                    />
+                  </div>
+                </div>
+              )}
+              {!showFullDescription ? "Show Full Description" : "Show less"}
             </TheButton>
           )}
         </div>

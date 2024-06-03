@@ -16,23 +16,23 @@ const placesNearby = [
 
 const Map: FC<PropertyProps> = ({ propertyDetails }) => {
   return (
-    <>
-      <Container>
-        <div className="w-full pt-[44px]">
-          <h3 className="block font-bold text-grays-1000 text-h3 leading-h3">
-            {text.singleLising.locationSection.title.en}
-          </h3>
+      <>
+        <Container>
+          <div className="w-full pt-[44px]">
+            <h3 className="block font-bold text-grays-1000 text-h3 leading-h3">
+              {text.singleLising.locationSection.title.en}
+            </h3>
 
-          <LocationMap
-            placesNearby={placesNearby}
-            propertyDetails={propertyDetails}
-            locationType={propertyDetails.listing.locationType}
-          />
-        </div>
-      </Container>
+            <LocationMap
+                placesNearby={placesNearby}
+                propertyDetails={propertyDetails}
+                locationType={propertyDetails.listing.locationType}
+            />
+          </div>
+        </Container>
 
-      <hr className="border-t border-grays-100"/>
-    </>
+        <hr className="border-t border-grays-100"/>
+      </>
   );
 };
 

@@ -38,7 +38,7 @@ const ListingsPage = async () => {
 
   const propertiesDetails = await getPropertiesDetails(
     propertyDataContent,
-    false
+    true
   );
   return (
     <Container restClasses="pt-[235px] lg:pt-0">

@@ -38,17 +38,6 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/land/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/land/page.css",
-      "static/chunks/app/land/page.js"
-    ],
-    "/land/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/land/loading.js"
-    ],
     "/accomodation/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -60,11 +49,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/accomodation/loading.js"
     ],
-    "/listings/page": [
+    "/land/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/listings/page.css",
-      "static/chunks/app/listings/page.js"
+      "static/css/app/land/page.css",
+      "static/chunks/app/land/page.js"
+    ],
+    "/land/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/land/loading.js"
     ]
   }
 }

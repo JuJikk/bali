@@ -3,6 +3,7 @@ import Image from "next/image";
 import Icon from "@/components/ui/Icon";
 import { useEffect } from "react";
 import { ImageRes } from "@/models/basic";
+import Container from "@/components/container/Container";
 
 type DevelopmentOverviewProps = {
   images: ImageRes[] | undefined;
@@ -126,42 +127,44 @@ function DevOverview({ images }: DevelopmentOverviewProps) {
   };
 
   return (
-    <div className="w-full flex items-center justify-center flex-col gap-y-11 pt-8">
-      <div>
-        <h3 className="sm:block hidden text-h3 leading-h3 text-center font-bold">
-          Development Overview
-        </h3>
-        <h3 className="sm:hidden text-4 leading-body_m text-center font-bold">
-          Development Overview
-        </h3>
-      </div>
+    <Container restClasses="relative">
+      <div className="w-full flex items-center justify-center text-grays-1000 flex-col gap-y-11 pt-8">
+        <div>
+          <h3 className="sm:block hidden text-h3 leading-h3 text-center font-bold">
+            Development Overview
+          </h3>
+          <h3 className="sm:hidden text-4 leading-body_m text-center font-bold">
+            Development Overview
+          </h3>
+        </div>
 
-      <div className="relative flex  items-center  flex-col w-full pb-10 h-fit">
-        {mockTimeline.map((el: any, index: number) => (
-          <NodeOfProgress
-            images={images}
-            title={el.title}
-            subtitle={el.subtitle}
-            typeOfNode={el.typeOfNode}
-            key={`NOP_${index}`}
-          />
-        ))}
+        <div className="relative flex  items-center  flex-col w-full pb-10 h-fit">
+          {mockTimeline.map((el: any, index: number) => (
+            <NodeOfProgress
+              images={images}
+              title={el.title}
+              subtitle={el.subtitle}
+              typeOfNode={el.typeOfNode}
+              key={`NOP_${index}`}
+            />
+          ))}
 
-        <div
-          className="bg-grays-50"
-          style={{
-            top: "62px",
-            position: "absolute",
-            height: `${sublineHeight * (mockTimeline.length - 1) - 60}px`,
-            width: "10px",
-          }}
-        >
           <div
-            className={` h-[10%] rounded-full w-[10px] bg-grays-1000  overflow-hidden transition-height duration-500 h-[${mockPercent}px]`}
-          ></div>
+            className="bg-grays-50"
+            style={{
+              top: "62px",
+              position: "absolute",
+              height: `${sublineHeight * (mockTimeline.length - 1) - 60}px`,
+              width: "10px",
+            }}
+          >
+            <div
+              className={` h-[10%] rounded-full w-[10px] bg-grays-1000  overflow-hidden transition-height duration-500 h-[${mockPercent}px]`}
+            ></div>
+          </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
 
