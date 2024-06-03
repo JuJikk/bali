@@ -1,0 +1,80 @@
+.marker {
+  /* position: relative;
+    transition: z-index 0.1s ease; */
+  width: fit-content;
+}
+.mapboxgl-popup {
+  z-index: 22;
+}
+
+.mapboxgl-popup-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.mapboxgl-popup-tip {
+  display: none;
+}
+
+.mapboxgl-control-container .mapboxgl-ctrl-attrib {
+  display: none;
+}
+
+.mapboxgl-control-container .mapboxgl-ctrl-group {
+  border: none;
+  box-shadow: none !important;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 1rem 1rem 0 0 !important;
+}
+.mapboxgl-control-container .mapboxgl-ctrl-zoom-out,
+.mapboxgl-control-container .mapboxgl-ctrl-zoom-in {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapboxgl-control-container .mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon,
+.mapboxgl-control-container .mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
+  width: 24px;
+  background-image: none !important;
+  position: relative;
+}
+.mapboxgl-control-container .mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon::after {
+  content: "-";
+  color: #3c3e3d;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 20px;
+  padding-bottom: 2px;
+}
+.mapboxgl-control-container .mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon::after {
+  content: "+";
+  color: #3c3e3d;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 20px;
+  padding-bottom: 2px;
+}
+
+.marker--active .marker_container {
+  transform: scale(1.1) !important;
+  background-color: #000000 !important;
+}
+
+.marker--active .marker_container p,
+.marker--active .marker_container span {
+  color: #ffffff !important;
+}
+
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}

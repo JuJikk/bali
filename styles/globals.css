@@ -1,0 +1,379 @@
+@import "./fonts.css";
+@import "./rangeSlider.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./infiniteLoop.css";
+@import "./property.css";
+@import "./map.css";
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:focus-visible {
+  outline-color: #bbbab7;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@layer components {
+  .loader {
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.construction_hover {
+  transition: all 0.3s ease;
+  max-height: 10px;
+  height: 100%;
+}
+.construction_hover_content {
+  transition: all 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+  transform: scaleY(0);
+}
+
+.hover_action:hover .construction_hover {
+  max-height: 29px;
+}
+.hover_action:hover .construction_hover_content {
+  visibility: visible;
+  opacity: 1;
+  transform: scaleY(1);
+}
+.hover_action {
+  transition: all 0.3s ease;
+}
+.hover_arrow {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.hover_action:hover .hover_arrow {
+  display: flex;
+  transition: all 0.3s ease;
+  visibility: visible;
+  opacity: 80%;
+}
+.hover_action:hover .border_on_hover {
+  border: 1px solid var(--Grays-200, #cfcdc7);
+  border-top: none;
+  transition: all 0.3s ease;
+}
+.hover_action:hover .border_on_hover_status {
+  border: 1px solid #c98119;
+  border-top: none;
+  transition: all 0.3s ease;
+}
+
+.button_hover .icon {
+  stroke: #000000;
+  fill: none;
+  transition: all 0.3s ease;
+}
+
+.button_hover:hover .icon.icon_hover {
+  stroke: #8b8b89;
+}
+
+.switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.switch-checkbox:checked + .switch-label .switch-button {
+  transform: translate(calc(100% + 9px), -50%);
+  background-color: #000000;
+}
+.switch-label {
+  transition: all 0.3s ease;
+  background-color: #bbbab7;
+}
+.switch-checkbox:checked + .switch-label {
+  background-color: #6d6d6b;
+}
+.switch-label:active .switch-button {
+  transition: all 0.3s ease;
+}
+
+.switch-label .switch-button {
+  transition: all 0.3s ease;
+  background-color: #6d6d6b;
+}
+
+.dropdown-menu {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+}
+
+.dropdown-menu.open {
+  max-height: 324px;
+  opacity: 1;
+}
+
+.react-slideshow-container {
+  position: static !important;
+}
+.react-slideshow-wrapper .images-wrap.horizontal {
+  align-items: center;
+}
+
+.slide-container .react-slideshow-container + ul.indicators {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.each-slideshow-indicator {
+  cursor: pointer !important;
+  width: 6px !important;
+  height: 6px !important;
+  opacity: 1 !important;
+  background: #ffffff80 !important;
+}
+
+.slide-container
+  .react-slideshow-container
+  + ul.indicators
+  .each-slideshow-indicator::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  content: "";
+  background: #ffffff80;
+  text-align: center;
+}
+.slide-container
+  .react-slideshow-container
+  + ul.indicators
+  .each-slideshow-indicator.active::before {
+  content: "";
+  transform: scale(1.33);
+  background: #ffffff;
+}
+
+.indicator.active {
+  color: #fff;
+  background: #666;
+}
+
+#likeButton #heart {
+  fill: rgba(125, 125, 125, 0.5);
+}
+
+#likeButton #circle {
+  fill: none;
+}
+
+#likeButton #particle {
+  fill: none;
+}
+
+#likeButton.active #heart {
+  transform-origin: 50% 50%;
+  animation: heartAnimation 500ms;
+  fill: rgba(254, 46, 46, 1);
+}
+
+#likeButton.active #circle {
+  transform-origin: 50% 50%;
+  animation: circleAnimation 600ms;
+}
+
+#likeButton.active #particle {
+  transform-origin: 50% 50%;
+  animation: particleAnimation 450ms;
+}
+
+@keyframes heartAnimation {
+  0% {
+    transform: scale(0);
+    stroke-width: 0;
+  }
+  15% {
+    stroke-width: 100;
+  }
+  30% {
+    stroke-width: 200;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes circleAnimation {
+  0% {
+    fill: rgba(255, 20, 147, 0);
+    transform: scale(0);
+  }
+  20% {
+    fill: rgba(255, 20, 147, 0.2);
+    transform: scale(0.5);
+  }
+  50% {
+    fill: rgba(255, 20, 147, 0.3);
+  }
+  100% {
+    fill: rgba(255, 20, 147, 0);
+    transform: scale(1.2);
+  }
+}
+@keyframes particleAnimation {
+  0% {
+    fill: rgba(255, 20, 147, 0);
+    transform: scale(0);
+  }
+  20% {
+    fill: rgba(255, 20, 147, 0.2);
+    transform: scale(0.2);
+  }
+  50% {
+    fill: rgba(255, 20, 147, 0.4);
+    transform: scale(0.6);
+  }
+  80% {
+    fill: rgba(255, 20, 147, 0.6);
+    transform: scale(1.2);
+  }
+  100% {
+    fill: rgba(255, 20, 147, 0);
+    transform: scale(1.4);
+  }
+}
+
+.Toastify__toast-container {
+  width: 100% !important;
+  max-width: 401px !important;
+}
+
+.Toastify__toast-theme--light {
+  background-color: #fefaf2 !important;
+  color: #000000 !important;
+}
+
+.Toastify__toast {
+  box-shadow: 0px 4px 26px 0px #42474c14 !important;
+  border-top: 1px solid var(--Grays-50, #f1f0ee) !important;
+  border-radius: 1rem !important;
+  padding: 26px 20px !important;
+}
+
+@keyframes slideContinuous {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.skeleton-move {
+  background: linear-gradient(to right, #f1f0ee 8%, #e5e4e1 18%, #f1f0ee 33%);
+  background-size: 1000px 100%;
+  animation: shimmer 4s linear infinite;
+}
+.skeleton-dark {
+  background: linear-gradient(to right, #d4d2cd 8%, #dddbd7 18%, #d4d2cd 33%);
+  background-size: 100% 100%;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes smoothBlink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.skeleton-blink {
+  animation: smoothBlink 2s linear infinite alternate;
+}
+
+
+
+.scrolling_container:hover .scroller__inner {
+  animation-play-state: paused !important;
+}
+
+.three_columns {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media (max-width: 640px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+.two_columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.no_mt {
+  @media (max-width: 1024px) {
+    margin-top: 0px !important;
+  }
+}
+.no_screen_h {
+  @media (min-width: 480px) {
+    min-height: auto !important;
+  }
+}
+
+.tutorial-slider {
+  overflow: hidden;
+}
+.images-wrap.horizontal {
+  display: flex !important;
+}
+
+.presentation_slide .indicators {
+  display: flex;
+  gap: 3px;
+  bottom: 25px !important;
+}
+.presentation_slide .indicators .each-slideshow-indicator {
+  position: relative;
+}
+.presentation_slide .indicators .each-slideshow-indicator::before {
+  background: #cfcdc7 !important;
+}
+.presentation_slide .indicators .each-slideshow-indicator.active::before {
+  background: #000000 !important;
+  transform: scale(1.3);
+}

@@ -1,0 +1,10 @@
+{
+  "/listings/[listingId]/page": "app/listings/[listingId]/page.js",
+  "/page": "app/page.js",
+  "/land/page": "app/land/page.js",
+  "/accomodation/page": "app/accomodation/page.js",
+  "/listings/page": "app/listings/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

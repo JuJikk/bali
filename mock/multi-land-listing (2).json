@@ -1,0 +1,167 @@
+{
+    "title": "Plots for sale in Uluwatu",
+    "propertyType": "LAND",
+    "description": "Located in one of the most desirable investment areas in Umalas. This excellent land is just a few minutes away from Batu Belig Beach, family recreation, iconic beach clubs, shops, and well-known restaurants this area can offer. These 10.5 Are of land with a peaceful area. Being surrounded by luxury villa development, and also this land is a great investment making this land offers lots of potential for developers who want to develop villas.",
+    "leaseDuration": 25,
+    "extensionGuaranteed": false,
+    "youtubeLink": "https://www.youtube.com/watch?v=y_o_Vz4sCVU&t=130s",
+    "listingType": "SALE",
+    "allowComments": false,
+    "leasehold": true,
+    "freehold": true,
+    "landZoning": "YELLOW",
+    "locationType": "EXACT",
+    "latitude": "-8.829694",
+    "longitude": "115.087573",
+    "location": "Uluwatu",
+    "status": "ACTIVE",
+    "showROI": false,
+    "properties": [
+        {
+            "propertyType": "LAND",
+            "landSize": 120,
+            "minimumTake": 5,
+            "listPlots": true,
+            "plots": [
+                {
+                    "pricing": "VARIABLE",
+                    "prices": [
+                        {
+                            "leaseholdPrice": 650,
+                            "freeholdPrice": 950,
+                            "currency": "EUR"
+                        },
+                        {
+                            "leaseholdPrice": 750,
+                            "freeholdPrice": 1050,
+                            "currency": "USD"
+                        },
+                        {
+                            "leaseholdPrice": 550,
+                            "freeholdPrice": 850,
+                            "currency": "GBP"
+                        },
+                        {
+                            "leaseholdPrice": 1250,
+                            "freeholdPrice": 1950,
+                            "currency": "AUD"
+                        },
+                        {
+                            "leaseholdPrice": 27000000,
+                            "freeholdPrice": 37000000,
+                            "currency": "IDR"
+                        }
+                    ],
+                    "size": 15,
+                    "status": "SOLD"
+                },
+                {
+                    "pricing": "VARIABLE",
+                    "prices": [
+                        {
+                            "leaseholdPrice": 550,
+                            "freeholdPrice": 850,
+                            "currency": "EUR"
+                        },
+                        {
+                            "leaseholdPrice": 650,
+                            "freeholdPrice": 950,
+                            "currency": "USD"
+                        },
+                        {
+                            "leaseholdPrice": 450,
+                            "freeholdPrice": 750,
+                            "currency": "GBP"
+                        },
+                        {
+                            "leaseholdPrice": 1150,
+                            "freeholdPrice": 1850,
+                            "currency": "AUD"
+                        },
+                        {
+                            "leaseholdPrice": 25000000,
+                            "freeholdPrice": 35000000,
+                            "currency": "IDR"
+                        }
+                    ],
+                    "size": 6,
+                    "status": "ACTIVE"
+                },
+                {
+                    "pricing": "VARIABLE",
+                    "prices": [
+                        {
+                            "leaseholdPrice": 850,
+                            "freeholdPrice": 1000,
+                            "currency": "EUR"
+                        },
+                        {
+                            "leaseholdPrice": 950,
+                            "freeholdPrice": 1250,
+                            "currency": "USD"
+                        },
+                        {
+                            "leaseholdPrice": 1050,
+                            "freeholdPrice": 890,
+                            "currency": "GBP"
+                        },
+                        {
+                            "leaseholdPrice": 1350,
+                            "freeholdPrice": 2950,
+                            "currency": "AUD"
+                        },
+                        {
+                            "leaseholdPrice": 40000000,
+                            "freeholdPrice": 50000000,
+                            "currency": "IDR"
+                        }
+                    ],
+                    "size": 10,
+                    "status": "ACTIVE"
+                }
+            ],
+            "prices": [
+                {
+                    "leaseholdPrice": 650,
+                    "freeholdPrice": 950,
+                    "currency": "EUR"
+                },
+                {
+                    "leaseholdPrice": 750,
+                    "freeholdPrice": 1050,
+                    "currency": "USD"
+                },
+                {
+                    "leaseholdPrice": 550,
+                    "freeholdPrice": 850,
+                    "currency": "GBP"
+                },
+                {
+                    "leaseholdPrice": 1250,
+                    "freeholdPrice": 1950,
+                    "currency": "AUD"
+                },
+                {
+                    "leaseholdPrice": 650,
+                    "freeholdPrice": 950,
+                    "currency": "IDR"
+                }
+            ]
+        }
+    ],
+    "images": [
+        {
+            "place": 1,
+            "key": "pexels-tomfisk-3083008.jpg",
+            "thumbnail": true
+        }
+    ],
+    "additionalDetails": [
+        "OCEAN_VIEW"
+    ],
+    "stars": 0,
+    "priority": false,
+    "priorityUntil": null,
+    "starsUntil": null,
+    "validFor": 30
+}

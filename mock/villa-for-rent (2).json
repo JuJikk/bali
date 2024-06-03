@@ -1,0 +1,78 @@
+{
+    "title": "Amazing Villa For Rent",
+    "propertyType": "VILLA",
+    "description": "Discover the epitome of luxury living with this stunning villa for rent in Bali. Nestled in the heart of Bali's most exclusive neighborhood, this exquisite villa offers an unparalleled blend of elegance and comfort. Boasting spacious living areas, beautifully landscaped gardens, and a private pool, this villa is perfect for those seeking the ultimate tropical getaway. With its stylish design, modern amenities, and breathtaking views, this villa provides the perfect retreat to relax and unwind. Whether you're lounging by the pool, enjoying a meal in the outdoor dining area, or exploring the vibrant culture of Bali, this villa offers a truly unforgettable experience.  ",
+    "youtubeLink": "https://www.youtube.com/watch?v=vHECmhX5PMs",
+    "listingType": "RENT",
+    "allowComments": false,
+    "monthlyRent": true,
+    "yearlyRent": true,
+    "locationType": "EXACT",
+    "latitude": "-8.647048",
+    "longitude": "115.115018",
+    "location": "Pererenen",
+    "status": "ACTIVE",
+    "showROI": false,
+    "properties": [
+      {
+        "propertyType": "VILLA",
+        "landSize": 1,
+        "buildArea": 120,
+        "bedrooms": 3,
+        "bathrooms": 5.5,
+        "poolSize": 45,
+        "poolType": "PRIVATE",
+        "livingType": "OPEN",
+        "equipment": "FULLY_EQUIPPED",
+        "prices": [
+          {
+            "yearlyPrice": 16000,
+            "monthlyPrice": 1600,
+            "currency": "EUR"
+          },
+          {
+            "yearlyPrice": 18000,
+            "monthlyPrice": 1800,
+            "currency": "USD"
+          },
+          {
+            "yearlyPrice": 15000,
+            "monthlyPrice": 1500,
+            "currency": "GBP"
+          },
+          {
+            "yearlyPrice": 19000,
+            "monthlyPrice": 1900,
+            "currency": "AUD"
+          },
+          {
+            "yearlyPrice": 96000000,
+            "monthlyPrice": 9600000,
+            "currency": "IDR"
+          }
+        ],
+        "images": [
+        ]
+      }
+    ],
+    "images": [
+      {
+        "place": 1,
+        "key": "pexels-tomfisk-3083008.jpg",
+        "thumbnail": true
+      },
+      {
+        "place": 2,
+        "key": "pexels-tomfisk-3083008.jpg",
+        "thumbnail": false
+      }
+    ],
+    "additionalDetails": [
+      "OCEAN_VIEW"
+    ],
+"stars": 0,
+    "priority": false,
+    "priorityUntil": null,
+    "starsUntil": null,
+    "validFor": 30
+  }

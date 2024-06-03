@@ -1,0 +1,19 @@
+/* slider rail */
+.range-slider {
+  border: 2px solid #cfcdc7 !important;
+  height: 4px !important;
+}
+
+/* slider selected active rail */
+.range-slider__range {
+  border: 2px solid #000000 !important;
+  height: 4px !important;
+}
+
+/* slider thumb */
+.range-slider .range-slider__thumb {
+  border: 2px solid #000000 !important;
+  background: #ffffff !important;
+  height: 10px !important;
+  width: 10px !important;
+}

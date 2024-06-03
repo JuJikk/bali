@@ -1,0 +1,135 @@
+{
+  "title": "3 Bedroom Villa in Canggu",
+  "propertyType": "VILLA",
+  "description": "Nestled in the peaceful Buduk neighborhood of Canggu, this charming 2-bedroom villa with an office sits on 4 Are of land with a 32-year leasehold. Meticulously designed for comfort and convenience. The spacious bedrooms offer stunning views and seamlessly blend indoor-outdoor living. Downstairs, there’s ample space for a third bedroom or studio, while the enclosed living room and kitchen form the heart of the villa.",
+  "leaseDuration": 29,
+  "extensionGuaranteed": true,
+  "youtubeLink": "https://www.youtube.com/watch?v=BQPkhxiBdMc",
+  "listingType": "SALE",
+  "allowComments": false,
+  "leasehold": true,
+  "freehold": false,
+  "locationType": "EXACT",
+  "latitude": "-8.649033",
+  "longitude": "115.128107",
+  "location": "Canggu",
+  "status": "ACTIVE",
+  "showROI": true,
+  "properties": [
+    {
+      "propertyType": "VILLA",
+      "landSize": 3,
+      "buildArea": 120,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "poolSize": 60,
+      "poolType": "PRIVATE",
+      "livingType": "ENCLOSED",
+      "equipment": "FULLY_EQUIPPED",
+      "prices": [
+        {
+          "leaseholdPrice": 115000,
+          "currency": "EUR"
+        },
+        {
+          "leaseholdPrice": 125000,
+          "currency": "USD"
+        },
+        {
+          "leaseholdPrice": 6700000000,
+          "currency": "IDR"
+        },
+        {
+          "leaseholdPrice": 180000,
+          "currency": "AUD"
+        },
+        {
+          "leaseholdPrice": 103000,
+          "currency": "GBP"
+        }
+      ],
+      "images": [
+        {
+          "place": 1,
+          "key": "pexels-betchtyblades-2480608.jpg",
+          "thumbnail": false
+        }
+      ],
+      "revenues": [
+        {
+          "roiType": "PESSIMISTIC",
+          "annualRevenue": 73000,
+          "occupancy": "70",
+          "nightlyRate": 260,
+          "monthlyExpenses": 760,
+          "otaFees": "12000",
+          "serviceFees": "9000",
+          "roi": "12",
+          "passiveIn30Years": 1124000,
+          "annualProfit": 38000,
+          "yearsToBreakEven": "4.3",
+          "currency": "EUR"
+        },
+        {
+          "roiType": "REALISTIC",
+          "annualRevenue": 93000,
+          "occupancy": "80",
+          "nightlyRate": 360,
+          "monthlyExpenses": 760,
+          "otaFees": "15000",
+          "serviceFees": "12000",
+          "roi": "15",
+          "passiveIn30Years": 1424000,
+          "annualProfit": 48000,
+          "yearsToBreakEven": "3.3",
+          "currency": "EUR"
+        },
+        {
+          "roiType": "OPTIMISTIC",
+          "annualRevenue": 103000,
+          "occupancy": "90",
+          "nightlyRate": 360,
+          "monthlyExpenses": 760,
+          "otaFees": "17000",
+          "serviceFees": "14000",
+          "roi": "18",
+          "passiveIn30Years": 1524000,
+          "annualProfit": 52000,
+          "yearsToBreakEven": "2.9",
+          "currency": "EUR"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "place": 1,
+      "key": "pexels-betchtyblades-2480608.jpg",
+      "thumbnail": true
+    }
+  ],
+  "construction": {
+    "status": "OFF_PLAN",
+    "completionYear": 2025,
+    "completionMonth": "JANUARY",
+    "startYear": 2024,
+    "startMonth": "MAY",
+    "images": [
+      {
+        "place": 1,
+        "key": "pexels-betchtyblades-2480608.jpg",
+        "year": 2024,
+        "month": "MAY",
+        "thumbnail": false
+      }
+    ]
+  },
+  "additionalDetails": [
+    "OCEAN_VIEW"
+  ],
+    "stars": 0,
+    "priority": false,
+    "priorityUntil": null,
+    "starsUntil": null,
+    "validFor": 30
+}

@@ -1,0 +1,70 @@
+{
+    "title": "Plots for sale in Cemagi",
+    "propertyType": "LAND",
+    "description": "Located in one of the most desirable investment areas in Umalas. This excellent land is just a few minutes away from Batu Belig Beach, family recreation, iconic beach clubs, shops, and well-known restaurants this area can offer. These 10.5 Are of land with a peaceful area. Being surrounded by luxury villa development, and also this land is a great investment making this land offers lots of potential for developers who want to develop villas.",
+    "leaseDuration": 25,
+    "extensionGuaranteed": false,
+    "youtubeLink": "https://www.youtube.com/watch?v=y_o_Vz4sCVU&t=130s",
+    "listingType": "SALE",
+    "allowComments": false,
+    "leasehold": true,
+    "freehold": true,
+    "landZoning": "YELLOW",
+    "locationType": "EXACT",
+    "latitude": "-8.642534",
+    "longitude": "115.105266",
+    "location": "Cemagi",
+    "status": "ACTIVE",
+    "showROI": false,
+    "properties": [
+      {
+        "propertyType": "LAND",
+        "landSize": 8,
+        "minimumTake": 8,
+        "listPlots": false,
+        "prices": [
+          {
+            "leaseholdPrice": 650,
+            "freeholdPrice": 950,
+            "currency": "EUR"
+          },
+          {
+            "leaseholdPrice": 750,
+            "freeholdPrice": 1050,
+            "currency": "USD"
+          },
+          {
+            "leaseholdPrice": 550,
+            "freeholdPrice": 850,
+            "currency": "GBP"
+          },
+          {
+            "leaseholdPrice": 1250,
+            "freeholdPrice": 1950,
+            "currency": "AUD"
+          },
+          {
+            "leaseholdPrice": 650,
+            "freeholdPrice": 950,
+            "currency": "IDR"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "place": 1,
+        "key": "pexels-tomfisk-3083008.jpg",
+        "thumbnail": true
+      }
+    ],
+    "additionalDetails": [
+      "OCEAN_VIEW"
+    ],
+"stars": 0,
+    "priority": false,
+    "priorityUntil": null,
+    "starsUntil": null,
+    "validFor": 30
+  }
+  

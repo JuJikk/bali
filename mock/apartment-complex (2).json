@@ -1,0 +1,214 @@
+{
+    "title": "Apartments In Nyang Nyang",
+    "propertyType": "APARTMENT",
+    "description": "Discover the ultimate investment opportunity in the hotspot of Nyang Nyang, a stunning Mediterranean style off-plan apartments with unrivaled luxury and commercial potential. Located just moments from the beach and surrounded by top-tier cafes and restaurants, this villa offers both convenience and indulgence. Sets on 0,75 Are land with 80 sqm building size.",
+    "leaseExpiration": "May 2054",
+    "listingType": "SALE",
+    "allowComments": false,
+    "leasehold": false,
+    "freehold": true,
+    "locationType": "EXACT",
+    "latitude": "-8.835533",
+    "longitude": "115.092048",
+    "location": "Nyang Nyang",
+    "status": "ACTIVE",
+    "showROI": true,
+    "properties": [
+        {
+            "propertyType": "APARTMENT_COMPLEX",
+            "landSize": 0.75,
+            "buildArea": 0.120,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "poolSize": 30,
+            "poolType": "SHARED",
+            "livingType": "ENCLOSED",
+            "available": 3,
+            "sold": 6,
+            "equipment": "FULLY_EQUIPPED",
+            "prices": [
+                {
+                    "freeholdPrice": 79000,
+                    "currency": "EUR"
+                },
+                {
+                    "freeholdPrice": 89000,
+                    "currency": "USD"
+                },
+                {
+                    "freeholdPrice": 99000,
+                    "currency": "AUD"
+                },
+                {
+                    "freeholdPrice": 540000000,
+                    "currency": "IDR"
+                },
+                {
+                    "freeholdPrice": 76000,
+                    "currency": "GBP"
+                }
+            ],
+            "images": [
+                {
+                    "place": 1,
+                    "key": "pexels-expect-best-79873-323780.jpg",
+                    "thumbnail": false
+                }
+            ],
+            "revenues": [
+                {
+                    "roiType": "PESSIMISTIC",
+                    "annualRevenue": 75000,
+                    "occupancy": "65",
+                    "nightlyRate": 280,
+                    "monthlyExpenses": 800,
+                    "otaFees": "13000",
+                    "serviceFees": "10000",
+                    "roi": "11",
+                    "passiveIn30Years": 1200000,
+                    "annualProfit": 37000,
+                    "yearsToBreakEven": "4.8",
+                    "currency": "USD"
+                },
+                {
+                    "roiType": "REALISTIC",
+                    "annualRevenue": 97000,
+                    "occupancy": "75",
+                    "nightlyRate": 380,
+                    "monthlyExpenses": 800,
+                    "otaFees": "16000",
+                    "serviceFees": "13000",
+                    "roi": "14",
+                    "passiveIn30Years": 1500000,
+                    "annualProfit": 49000,
+                    "yearsToBreakEven": "3.6",
+                    "currency": "USD"
+                },
+                {
+                    "roiType": "OPTIMISTIC",
+                    "annualRevenue": 110000,
+                    "occupancy": "85",
+                    "nightlyRate": 400,
+                    "monthlyExpenses": 800,
+                    "otaFees": "18000",
+                    "serviceFees": "15000",
+                    "roi": "17",
+                    "passiveIn30Years": 1700000,
+                    "annualProfit": 55000,
+                    "yearsToBreakEven": "2.5",
+                    "currency": "USD"
+                }
+            ]
+        },
+        {
+            "propertyType": "APARTMENT_COMPLEX",
+            "landSize": 0.75,
+            "buildArea": 0.80,
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "poolSize": 30,
+            "poolType": "SHARED",
+            "livingType": "ENCLOSED",
+            "available": 3,
+            "sold": 6,
+            "equipment": "FULLY_EQUIPPED",
+            "prices": [
+          {
+              "freeholdPrice": 79000,
+              "currency": "EUR"
+          },
+          {
+              "freeholdPrice": 89000,
+              "currency": "USD"
+          },
+          {
+              "freeholdPrice": 99000,
+              "currency": "AUD"
+          },
+          {
+              "freeholdPrice": 540000000,
+              "currency": "IDR"
+          },
+          {
+              "freeholdPrice": 76000,
+              "currency": "GBP"
+          }
+      ],
+      "images": [
+          {
+              "place": 1,
+              "key": "pexels-expect-best-79873-323780.jpg",
+              "thumbnail": false
+          }
+      ],
+      "revenues": [
+          {
+              "roiType": "PESSIMISTIC",
+              "annualRevenue": 75000,
+              "occupancy": "65",
+              "nightlyRate": 280,
+              "monthlyExpenses": 800,
+              "otaFees": "13000",
+              "serviceFees": "10000",
+              "roi": "11",
+              "passiveIn30Years": 1200000,
+              "annualProfit": 37000,
+              "yearsToBreakEven": "4.8",
+              "currency": "USD"
+          },
+          {
+              "roiType": "REALISTIC",
+              "annualRevenue": 97000,
+              "occupancy": "75",
+              "nightlyRate": 380,
+              "monthlyExpenses": 800,
+              "otaFees": "16000",
+              "serviceFees": "13000",
+              "roi": "14",
+              "passiveIn30Years": 1500000,
+              "annualProfit": 49000,
+              "yearsToBreakEven": "3.6",
+              "currency": "USD"
+          },
+          {
+              "roiType": "OPTIMISTIC",
+              "annualRevenue": 110000,
+              "occupancy": "85",
+              "nightlyRate": 400,
+              "monthlyExpenses": 800,
+              "otaFees": "18000",
+              "serviceFees": "15000",
+              "roi": "17",
+              "passiveIn30Years": 1700000,
+              "annualProfit": 55000,
+              "yearsToBreakEven": "2.5",
+              "currency": "USD"
+          }
+      ]
+  }
+  ],
+  "images": [
+  {
+      "place": 1,
+      "key": "pexels-expect-best-79873-323780.jpg",
+      "thumbnail": true
+  }
+  ],
+  "construction": {
+  "status": "COMPLETED",
+  "completionYear": 2024,
+  "compleationMonth": "JANUARY",
+  "startYear": 2022,
+  "startMonth": "JANUARY",
+  "images": [
+  ]
+  },
+  "additionalDetails": [
+  "OCEAN_VIEW"
+  ],
+"stars": 0,
+    "priority": false,
+    "priorityUntil": null,
+    "starsUntil": null,
+    "validFor": 30
+  }
