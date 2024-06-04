@@ -100,7 +100,7 @@ const MapboxMap: FC<MapboxMapProps> = ({
       ...initialOptions,
     });
 
-    mapboxMap.addControl(new mapboxgl.NavigationControl(), "top-right");
+    mapboxMap.addControl(new mapboxgl.NavigationControl({showCompass: false}), "top-right");
 
     setMap(mapboxMap);
     if (onCreated) onCreated(mapboxMap);
@@ -213,12 +213,7 @@ const MapboxMap: FC<MapboxMapProps> = ({
     const price = getPrice(item.firstContent.prices[0]);
     let customMarkerElement: HTMLElement | null = null;
 
-    if (typeof price === "number") {
-      customMarkerElement = createCustomMarker(price, item.listingId);
-    } else {
-      console.error("Invalid price value:", price);
-      return null;
-    }
+    customMarkerElement = createCustomMarker(price, item.listingId);
 
     const longitude = parseFloat(item.listing.longitude);
     const latitude = parseFloat(item.listing.latitude);

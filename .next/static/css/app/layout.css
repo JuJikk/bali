@@ -3326,8 +3326,17 @@ input.tab:checked + .tab-content,
 .mt-auto{
   margin-top: auto;
 }
+.mr-auto{
+  margin-right: auto;
+}
+.mb-9{
+  margin-bottom: 2.25rem;
+}
 .box-border{
   box-sizing: border-box;
+}
+.box-content{
+  box-sizing: content-box;
 }
 .block{
   display: block;
@@ -3520,6 +3529,15 @@ input.tab:checked + .tab-content,
 }
 .h-svh{
   height: 100svh;
+}
+.h-\[100\%\]{
+  height: 100%;
+}
+.h-\[700px\]{
+  height: 700px;
+}
+.h-max{
+  height: max-content;
 }
 .max-h-0{
   max-height: 0px;
@@ -3940,6 +3958,9 @@ input.tab:checked + .tab-content,
 }
 .flex-wrap{
   flex-wrap: wrap;
+}
+.content-start{
+  align-content: flex-start;
 }
 .\!items-start{
   align-items: flex-start !important;
@@ -4868,6 +4889,12 @@ input.tab:checked + .tab-content,
 }
 .pt-\[92px\]{
   padding-top: 92px;
+}
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+.pb-9{
+  padding-bottom: 2.25rem;
 }
 .text-center{
   text-align: center;

@@ -13,21 +13,17 @@ function LocationInfo({ placesNearby }: LocationInfoProps) {
       </h4>
 
       <div className="md:grid flex-col grid-cols-2 grid-rows-2 gap-1 flex gap-x-11 flex-wrap w-full">
-        {typeof placesNearby !== "string" ? (
-          placesNearby.map((placeNearby, i) => (
-            <div className="flex gap-x-6" key={i}>
-              <div className="text-body_m font-normal leading-body_m text-grays-700">
-                {placeNearby.name}
-              </div>
-
-              <div className="text-grays-900 text-body_m leading-body_m font-bold">
-                {placeNearby.distance} km
-              </div>
+        {placesNearby.map((placeNearby, i) => (
+          <div className="flex gap-x-6" key={i}>
+            <div className="text-body_m font-normal leading-body_m text-grays-700">
+              {placeNearby.name}
             </div>
-          ))
-        ) : (
-          <div>{placesNearby}</div>
-        )}
+
+            <div className="text-grays-900 text-body_m leading-body_m font-bold">
+              {placeNearby.distance} km
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

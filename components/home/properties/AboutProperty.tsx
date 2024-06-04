@@ -118,7 +118,7 @@ const AboutProperty: FC<PropertyProps> = ({ propertyDetails }) => {
               className="max-w-[292px] flex items-center px-[41.33px] text-grays-1000 bg-transparent border border-grays-1000 rounded-2xl py-[13.5px]"
               onClick={handleOpenModal}
             >
-              {showFullDescription ? (
+              {!showFullDescription ? (
                 <div
                   className={`flex justify-center items-center transition-transform duration-300 ease-in-out`}
                 >
